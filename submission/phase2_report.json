@@ -1,0 +1,30 @@
+{
+  "phase": "2",
+  "environment": {
+    "colab": true
+  },
+  "attention": {
+    "naive_ms": 374.647,
+    "vectorized_ms": 1.156,
+    "speedup": 324.09
+  },
+  "threads": {
+    "1": 2545.818,
+    "2": 2523.683,
+    "4": 2485.339,
+    "8": 3008.299
+  },
+  "devices": {
+    "cpu_ms": 481900.8,
+    "gpu_ms": 13257.1
+  },
+  "training": {
+    "steps": 2000,
+    "final_loss": 1.4307,
+    "param_count": 4935680
+  },
+  "sample": "\nKATHARINA:\nYou worshm in thus subts tworx thou house father's,\nAnd upon the walb happiredy less whilst of wars\nShall ended-recethred, by, wood me, injucts,\nThen why kneel, then, and garled's Kyel.\nThe",
+  "model": {
+    "gcs_url": "https://storage.googleapis.com/clouds-lab-512716-eurecomgpt/model.safetensors"
+  }
+}
